@@ -24,8 +24,17 @@ body {
 }
 
 .header {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
     background-color: white;
     grid-column: 2 / 3;
+}
+
+.search-bar input {
+    background-color: lightgray;
+    border: none;
+    border-radius: 25px;
 }
 
 .main-content {
