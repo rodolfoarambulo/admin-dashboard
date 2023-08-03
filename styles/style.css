@@ -3,6 +3,12 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     display: grid;
     height: 100vh;
@@ -40,4 +46,21 @@ body {
 .main-content {
     background-color: lightgray;
     grid-column: 2 / 3;
+}
+
+.project-card {
+    background-color: white;
+    width: 350px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    border-left: 10px solid orange;
+}
+
+.project-card-content a img {
+    width: 24px;
+}
+
+.project-card-controls ul li {
+    display: inline-block;
 }
