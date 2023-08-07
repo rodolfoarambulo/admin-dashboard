@@ -23,7 +23,7 @@ ul {
 .sidebar {
     display: grid;
     grid-template-rows: 1fr 2fr 8fr;
-    background-color: lightblue;
+    background-color: #0ea5e9;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
@@ -55,7 +55,7 @@ ul {
 }
 
 .search-bar input {
-    background-color: lightgray;
+    background-color: #e2e8f0;
     border: none;
     border-radius: 25px;
     width: 500px;
@@ -110,7 +110,7 @@ ul {
 }
 
 .main-content {
-    background-color: lightgray;
+    background-color:#e2e8f0;
     grid-column: 2 / 3;
 }
 
