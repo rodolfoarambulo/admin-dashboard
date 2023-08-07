@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -37,10 +41,25 @@ ul {
     grid-column: 2 / 3;
 }
 
+.search-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-self: flex-start;
+    margin-left: 3%;
+}
+
+.search-bar img {
+    width: 25px;
+    height: 25px;
+}
+
 .search-bar input {
     background-color: lightgray;
     border: none;
     border-radius: 25px;
+    width: 500px;
+    padding: 8px;
 }
 
 .main-content {
