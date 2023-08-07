@@ -22,15 +22,52 @@ ul {
 
 .sidebar {
     display: grid;
-    grid-template-rows: 1fr 2fr 8fr;
+    grid-template-rows: 100px 400px;
     background-color: #0ea5e9;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
 
-.logo {
+.sidebar a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a:hover {
+    color: #f59e0b;
+}
+
+.sidebar a:active {
+    color: #e11d48;
+}
+
+.sidebar-dashboard {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    gap: 2%;
     font-size: larger;
-    padding: 20px;
+    padding: 0;
+}
+
+.sidebar-dashboard img {
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar-links li {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin: 8%;
+}
+
+.sidebar-links img {
+    width: 25px;
+    height: 25px;
 }
 
 .header {
@@ -137,7 +174,7 @@ ul {
     height: 150px;
     border-radius: 8px;
     padding: 10px;
-    border-left: 10px solid orange;
+    border-left: 10px solid #f59e0b;
 }
 
 .project-card-content a img {
