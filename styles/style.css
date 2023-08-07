@@ -181,6 +181,15 @@ ul {
     margin-left: 5%;
 }
 
+.main-content p:first-child {
+    font-size: large;
+    font-weight: bold;
+}
+
+.main-content p:nth-child(2) {
+    color: #475569;
+}
+
 .project-card-list {
     display: flex;
     align-items: center;
@@ -190,6 +199,8 @@ ul {
 }
 
 .project-card {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
     background-color: white;
     width: 400px;
     height: 221px;
@@ -199,12 +210,23 @@ ul {
     margin-bottom: 3%;
 }
 
-.project-card-content a img {
+.project-card-content {
+    padding: 3%;
+}
+
+.project-card-controls a img {
     width: 24px;
 }
 
-.project-card-controls ul li {
-    display: inline-block;
+.project-card-controls {
+    grid-row: 2 / 3;
+}
+
+.project-card-controls ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8%;
+    margin-right: 5%;
 }
 
 .announcements {
