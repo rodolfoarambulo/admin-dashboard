@@ -109,6 +109,23 @@ ul {
     font-size: 28px;
 }
 
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.actions button {
+    border-style: none;
+    background-color: #0ea5e9;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 40px;
+    border-radius: 20px;
+}
+
 .main-content {
     background-color:#e2e8f0;
     grid-column: 2 / 3;
