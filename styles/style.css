@@ -49,9 +49,27 @@ ul {
     margin-left: 3%;
 }
 
-.search-bar img {
+.search-bar img, .profile img {
     width: 25px;
     height: 25px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.profile img:nth-child(2) {
+    align-self: center;
+    justify-self: center;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .search-bar input {
